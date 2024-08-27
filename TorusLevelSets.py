@@ -13,7 +13,7 @@ t=0
 
 def ScalarFunc(u,v):
     # Put f:torus -> \R here 
-    return np.sin(2*np.pi*u)*np.cos(8*np.pi*v**2)
+    return np.sin(2*np.pi*u)*(np.cos(8*np.pi*v**2) +np.sin(6*np.pi*v**2))*(1/2)
 
 
 # Indicator function, returns 1 when f<t, and null otherwise
